@@ -23,10 +23,10 @@ enableRobotsTXT = true
     title = "kdoul.me"
     copyright = "Konstantinos"
     [languages.en.params]
-      subtitle = "enterprise architecture · devops · data platforms"
+      subtitle = "IoT cloud solution architect working across data pipelines and enterprise integration"
       taglineExtra = "building things in the cloud and in the basement"
       owner = "konstantinos"
-      keywords = "devops, enterprise architecture, data platforms, homelab"
+      keywords = "iot, cloud architecture, devops, data platforms, homelab"
       menuMore = "Show more"
       readMore = "Read more"
       readOtherPosts = "Read other posts"

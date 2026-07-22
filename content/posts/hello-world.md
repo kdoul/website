@@ -6,8 +6,8 @@ description: "The old site is gone, long live the new site."
 ---
 
 The old version of this site was a single static HTML page on a VM
-that no longer exists. This one is built with Hugo, lives in a Git
-repository, and deploys itself to GitHub Pages on every push.
+that no longer exists. This one is built with Hugo and lives in a Git repository. It deploys
+itself to GitHub Pages on every push.
 
 Writing a new post is now just:
 
