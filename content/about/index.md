@@ -1,6 +1,7 @@
 ---
 title: "about"
 date: 2026-07-22
+description: "Konstantinos Douloudis, IoT Cloud Solution Architect in Vienna. Cloud infrastructure, devops, and a homelab in the basement."
 ---
 
 ```

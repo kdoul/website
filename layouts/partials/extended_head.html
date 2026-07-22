@@ -1,0 +1,18 @@
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | absURL }}">
+<meta name="theme-color" content="#101418">
+<meta name="author" content="Konstantinos Douloudis">
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Konstantinos Douloudis",
+  "url": "{{ .Site.BaseURL }}",
+  "jobTitle": "IoT Cloud Solution Architect",
+  "sameAs": [
+    "{{ .Site.Params.social.github }}",
+    "{{ .Site.Params.social.linkedin }}"
+  ]
+}
+</script>
+{{ end }}

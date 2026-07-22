@@ -1,6 +1,7 @@
 ---
 title: "projects"
 date: 2026-07-22
+description: "Things I build and run: a Proxmox homelab with media automation and this Hugo website."
 ---
 
 ```

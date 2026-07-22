@@ -1,6 +1,7 @@
 ---
 title: "contact"
 date: 2026-07-22
+description: "How to reach Konstantinos Douloudis: mail, GitHub, or LinkedIn."
 ---
 
 ```
