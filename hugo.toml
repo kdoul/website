@@ -1,0 +1,56 @@
+baseurl = "https://kdoul.me/"
+languageCode = "en-us"
+title = "kdoul.me"
+theme = "terminal"
+pagination.pagerSize = 5
+enableRobotsTXT = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  contentTypeName = "posts"
+  # accent color: orange, blue, red, green, pink
+  themeColor = "green"
+  showMenuItems = 4
+  fullWidthTheme = false
+  centerTheme = true
+  showLanguageSelector = false
+  showLastUpdated = false
+  readingTime = true
+  Toc = false
+
+[languages]
+  [languages.en]
+    title = "kdoul.me"
+    copyright = "Konstantinos"
+    [languages.en.params]
+      subtitle = "enterprise architecture · devops · data platforms"
+      owner = "Konstantinos"
+      keywords = "devops, enterprise architecture, data platforms, homelab"
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      [languages.en.params.logo]
+        logoText = "kdoul.me"
+        logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "about"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "projects"
+        url = "/projects"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "blog"
+        url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "contact"
+        url = "/contact"
