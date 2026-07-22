@@ -51,7 +51,5 @@ git add . && git commit -m "post: my post" && git push
 - `content/{about,projects,contact}/index.md` — static pages
 - `static/CNAME` — custom domain for GitHub Pages
 - `.github/workflows/deploy.yml` — CI/CD
-
-## Placeholders to replace
-
-Search for `YOURUSERNAME` and `YOURPROFILE` in `content/` and this README.
+- `static/style.css` — custom palette + terminal-window chrome (overrides theme CSS)
+- `layouts/` — site-level overrides: terminal title bar/nav (`partials/header.html`) and homepage (`index.html`)

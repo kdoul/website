@@ -1,0 +1,14 @@
+<div class="term-titlebar">
+  <span class="term-dot term-dot--red"></span>
+  <span class="term-dot term-dot--yellow"></span>
+  <span class="term-dot term-dot--green"></span>
+  <span class="term-titlebar__title">{{ $.Site.Params.Logo.logoText | default $.Site.Title }}</span>
+</div>
+<header class="header">
+  <nav class="term-nav">
+    <a href="{{ "/" | relLangURL }}" class="{{ if .IsHome }}active{{ end }}">~/home</a>
+    {{ range $.Site.Menus.main }}
+      <a href="{{ .URL }}" class="{{ if hasPrefix $.RelPermalink .URL }}active{{ end }}">{{ .Name }}</a>
+    {{ end }}
+  </nav>
+</header>

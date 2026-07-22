@@ -10,8 +10,6 @@ enableRobotsTXT = true
 
 [params]
   contentTypeName = "posts"
-  # accent color: orange, blue, red, green, pink
-  themeColor = "green"
   showMenuItems = 4
   fullWidthTheme = false
   centerTheme = true
@@ -26,13 +24,17 @@ enableRobotsTXT = true
     copyright = "Konstantinos"
     [languages.en.params]
       subtitle = "enterprise architecture · devops · data platforms"
-      owner = "Konstantinos"
+      taglineExtra = "building things in the cloud and in the basement"
+      owner = "konstantinos"
       keywords = "devops, enterprise architecture, data platforms, homelab"
       menuMore = "Show more"
       readMore = "Read more"
       readOtherPosts = "Read other posts"
       missingContentMessage = "Page not found..."
       missingBackButtonLabel = "Back to home page"
+      [languages.en.params.social]
+        github = "https://github.com/kdoul"
+        linkedin = "https://www.linkedin.com/in/konstantinos-douloudis/"
       [languages.en.params.logo]
         logoText = "kdoul.me"
         logoHomeLink = "/"
@@ -42,15 +44,19 @@ enableRobotsTXT = true
         identifier = "about"
         name = "about"
         url = "/about"
+        weight = 1
       [[languages.en.menu.main]]
         identifier = "projects"
         name = "projects"
         url = "/projects"
+        weight = 2
       [[languages.en.menu.main]]
         identifier = "posts"
         name = "blog"
         url = "/posts"
+        weight = 3
       [[languages.en.menu.main]]
         identifier = "contact"
         name = "contact"
         url = "/contact"
+        weight = 4

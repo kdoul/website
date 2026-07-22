@@ -17,5 +17,5 @@ This site is built with [Hugo](https://gohugo.io) and the
 [terminal theme](https://github.com/panr/hugo-theme-terminal),
 hosted for free on GitHub Pages.
 
-- GitHub: [github.com/YOURUSERNAME](https://github.com/YOURUSERNAME)
-- LinkedIn: [linkedin.com/in/YOURPROFILE](https://linkedin.com/in/YOURPROFILE)
+- GitHub: [github.com/kdoul](https://github.com/kdoul)
+- LinkedIn: [linkedin.com/in/konstantinos-douloudis](https://linkedin.com/in/konstantinos-douloudis)

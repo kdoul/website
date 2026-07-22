@@ -16,4 +16,4 @@ DNS-level ad blocking, Tailscale for remote access.
 ### this website
 
 Static site built with Hugo, deployed via GitHub Actions to
-GitHub Pages. [Source on GitHub](https://github.com/YOURUSERNAME/kdoul.me).
+GitHub Pages. [Source on GitHub](https://github.com/kdoul/website).

@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="home-terminal">
+  <p class="term-prompt">$ whoami</p>
+  <p class="term-name">{{ $.Site.Params.owner | default $.Site.Title }}<span class="term-cursor"></span></p>
+  <p class="term-tagline">{{ $.Site.Params.Subtitle }}<br/>{{ $.Site.Params.taglineExtra }}</p>
+
+  <div class="term-links">
+    {{ with $.Site.Params.social.github }}<a href="{{ . }}">[github]</a>{{ end }}
+    {{ with $.Site.Params.social.linkedin }}<a href="{{ . }}">[linkedin]</a>{{ end }}
+    {{ with .OutputFormats.Get "RSS" }}<a href="{{ .RelPermalink }}">[rss]</a>{{ end }}
+  </div>
+
+  <p class="term-prompt">$ ls posts/ --recent</p>
+  <div class="term-posts">
+    {{ $posts := where .Site.RegularPages "Type" ($.Site.Params.contentTypeName | default "posts") }}
+    {{ range first 5 $posts }}
+      <div class="term-posts__row">
+        <span class="term-posts__date">{{ .Date.Format "2006-01-02" }}</span>
+        <a href="{{ .RelPermalink }}">{{ with .File }}{{ .ContentBaseName }}{{ else }}{{ .Title | urlize }}{{ end }}.md</a>
+      </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

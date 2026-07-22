@@ -8,5 +8,5 @@ $ cat contact.txt
 ```
 
 - Mail: `contact@kdoul.me`
-- GitHub: [github.com/YOURUSERNAME](https://github.com/kdoul)
-- LinkedIn: [linkedin.com/in/YOURPROFILE](https://www.linkedin.com/in/konstantinos-douloudis/)
+- GitHub: [github.com/kdoul](https://github.com/kdoul)
+- LinkedIn: [linkedin.com/in/konstantinos-douloudis](https://www.linkedin.com/in/konstantinos-douloudis/)
